@@ -1,0 +1,64 @@
+.contacta-con-nosotros{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact-left {
+    text-align: left;
+    margin: 50px;
+    width: 30%; 
+    background-color: #000;
+    color: #f4f4f4;
+    padding: 5% 3% 5% 3%;
+}
+
+div .contact-left h4{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.contact-left a {
+    color: #f91f1f; 
+    margin-right: 10px; 
+    font-size: 1.5em; 
+}
+
+.contact-right {
+    margin: 50px;
+    width: 40%;
+}
+
+.contact-right h4{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.contact-right label {
+    display: block;
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+
+.contact-right input, .contact-right textarea {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 1em;
+}
+
+.contact-right button {
+    background-color: #f91f1f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-right button:hover {
+    background-color: #d7191f; 
+}
